@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit real secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Personal skills toolkit — local only, not part of the Finneas project
+skills/
