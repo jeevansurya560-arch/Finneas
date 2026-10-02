@@ -1,0 +1,6 @@
+{
+  "name": "@finneas/api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Finneas API server — Node.js + NestJS + PostgreSQL + Redis"
+}
