@@ -1,0 +1,6 @@
+{
+  "name": "@finneas/shared",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Finneas shared types and utilities — consumed by both web and api"
+}
