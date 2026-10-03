@@ -12,7 +12,11 @@
     "npm": ">=10.0.0"
   },
   "scripts": {
-    "dev": "echo \"Use 'npm run dev' inside apps/web or apps/api\"",
+    "dev": "npm run dev --workspace=@finneas/api",
+    "dev:api": "npm run dev --workspace=@finneas/api",
+    "dev:web": "npm run dev --workspace=@finneas/web",
+    "build:api": "npm run build --workspace=@finneas/api",
+    "build:web": "npm run build --workspace=@finneas/web",
     "lint": "echo \"Linting to be configured per workspace\"",
     "test": "echo \"Tests to be configured per workspace\""
   }

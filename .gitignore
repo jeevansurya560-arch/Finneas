@@ -6,12 +6,21 @@ node_modules/
 .env.*
 !.env.example
 
-# Build outputs
+# Build outputs & caches
 dist/
 build/
+*.tsbuildinfo
+.vite/
+.turbo/
 
 # Test coverage
 coverage/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
 # Personal skills toolkit — local only, not part of the Finneas project
 skills/
